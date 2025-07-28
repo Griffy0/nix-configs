@@ -1,0 +1,5 @@
+
+[Default Applications]
+x-scheme-handler/sgnl=signal.desktop
+x-scheme-handler/signalcaptcha=signal.desktop
+x-scheme-handler/discord=vesktop.desktop

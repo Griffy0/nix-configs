@@ -1,0 +1,499 @@
+{"level":40,"time":"2025-07-28T06:37:15.150Z","msg":"[setupI18nMain] intl.onWarn [@formatjs/intl] \"defaultRichTextElements\" was specified but \"message\" was not pre-compiled. \nPlease consider using \"@formatjs/cli\" to pre-compile your messages for performance.\nFor more details see https://formatjs.github.io/docs/getting-started/message-distribution"}
+{"level":30,"time":"2025-07-28T06:37:15.174Z","msg":"[preconnect] libsignal net url: https://chat.signal.org"}
+{"level":30,"time":"2025-07-28T06:37:15.174Z","msg":"[preconnect] libsignal net environment resolved to prod"}
+{"level":30,"time":"2025-07-28T06:37:15.180Z","msg":"[preconnect] WebAPI: preconnect start"}
+{"level":30,"time":"2025-07-28T06:37:15.429Z","msg":"[profiles] Profile Service initialized"}
+{"level":30,"time":"2025-07-28T06:37:15.567Z","msg":"[preload] complete"}
+{"level":30,"time":"2025-07-28T06:37:15.569Z","msg":"[@signalapp/libsignal-client] Initializing libsignal version:0.76.0 signal_node::logging rust/bridge/node/src/logging.rs:204"}
+{"level":30,"time":"2025-07-28T06:37:15.702Z","msg":"[notifications] NotificationService initialized"}
+{"level":30,"time":"2025-07-28T06:37:15.714Z","msg":"[incrementMessageCounter] initializeMessageCounter: picking max of db/stored counters"}
+{"level":30,"time":"2025-07-28T06:37:15.714Z","msg":"[ourProfileKey] Our profile key service: initializing"}
+{"level":30,"time":"2025-07-28T06:37:15.715Z","msg":"[background] page reloaded"}
+{"level":30,"time":"2025-07-28T06:37:15.715Z","msg":"[background] environment: production"}
+{"level":30,"time":"2025-07-28T06:37:15.716Z","msg":"[background] Storage fetch"}
+{"level":30,"time":"2025-07-28T06:37:15.720Z","msg":"[buildExpiration] Build expires (local): 2025-10-08T00:58:10.000Z"}
+{"level":30,"time":"2025-07-28T06:37:15.720Z","msg":"[SocketManager] connecting authenticated socket (hasStoriesDisabled=false)"}
+{"level":30,"time":"2025-07-28T06:37:15.721Z","msg":"[background] Initializing MessageReceiver"}
+{"level":30,"time":"2025-07-28T06:37:15.721Z","msg":"[senderCertificate] Sender certificate service initialized"}
+{"level":30,"time":"2025-07-28T06:37:15.722Z","msg":"[buildExpiration] Build expires (local): 2025-10-08T00:58:10.000Z"}
+{"level":30,"time":"2025-07-28T06:37:15.722Z","msg":"[buildExpiration] expires in 6200454278ms"}
+{"level":30,"time":"2025-07-28T06:37:15.724Z","msg":"[@signalapp/libsignal-client] connecting authenticated chat libsignal_bridge_types::net::chat /build/source/rust/bridge/shared/types/src/net/chat.rs:326"}
+{"level":30,"time":"2025-07-28T06:37:15.724Z","msg":"[@signalapp/libsignal-client] [authenticated] starting connection attempt with 1 routes libsignal_net::connect_state /build/source/rust/net/src/connect_state.rs:306"}
+{"level":30,"time":"2025-07-28T06:37:15.734Z","msg":"[background] Starting background data migration. Target version: 15"}
+{"level":30,"time":"2025-07-28T06:37:15.735Z","msg":"[retryPlaceholders] constructor: Started with 0 items, lifespan of 3600000"}
+{"level":30,"time":"2025-07-28T06:37:15.735Z","msg":"[ConversationController] starting initial fetch"}
+{"level":30,"time":"2025-07-28T06:37:15.759Z","msg":"[ConversationController] done with initial fetch, got 79 conversations"}
+{"level":30,"time":"2025-07-28T06:37:15.760Z","msg":"[@signalapp/libsignal-client] [authenticated 0] TCP failed after 20.662µs: Failed to establish TCP connection to any of the IPs libsignal_net_infra::route::connect::logging /build/source/rust/net/infra/src/route/connect/logging.rs:94"}
+{"level":30,"time":"2025-07-28T06:37:15.761Z","msg":"[SignalProtocolStore] Finished caching identityKeys data"}
+{"level":30,"time":"2025-07-28T06:37:15.761Z","msg":"[SignalProtocolStore] Finished caching sessions data"}
+{"level":30,"time":"2025-07-28T06:37:15.762Z","msg":"[SignalProtocolStore] Finished caching senderKeys data"}
+{"level":30,"time":"2025-07-28T06:37:15.764Z","msg":"[SignalProtocolStore] Finished caching preKeys data"}
+{"level":30,"time":"2025-07-28T06:37:15.779Z","msg":"[SignalProtocolStore] Finished caching kyberPreKeys data"}
+{"level":30,"time":"2025-07-28T06:37:15.779Z","msg":"[SignalProtocolStore] Finished caching signedPreKeys data"}
+{"level":30,"time":"2025-07-28T06:37:15.781Z","msg":"[ConversationController] checkForConflicts: starting..."}
+{"level":30,"time":"2025-07-28T06:37:15.781Z","msg":"[ConversationController] checkForConflicts: complete!"}
+{"level":30,"time":"2025-07-28T06:37:15.782Z","msg":"[Storage] getItemsState: now preparing copy of items..."}
+{"level":30,"time":"2025-07-28T06:37:15.814Z","msg":"[JobQueue] conversation job queue: starting to stream jobs"}
+{"level":30,"time":"2025-07-28T06:37:15.814Z","msg":"[JobQueueDatabaseStore] fetching existing jobs for queue \"conversation\""}
+{"level":30,"time":"2025-07-28T06:37:15.814Z","msg":"[JobQueue] groupAvatar job queue: starting to stream jobs"}
+{"level":30,"time":"2025-07-28T06:37:15.814Z","msg":"[JobQueueDatabaseStore] fetching existing jobs for queue \"groupAvatar\""}
+{"level":30,"time":"2025-07-28T06:37:15.814Z","msg":"[JobQueue] single proto job queue: starting to stream jobs"}
+{"level":30,"time":"2025-07-28T06:37:15.814Z","msg":"[JobQueueDatabaseStore] fetching existing jobs for queue \"single proto\""}
+{"level":30,"time":"2025-07-28T06:37:15.814Z","msg":"[JobQueue] read sync job queue: starting to stream jobs"}
+{"level":30,"time":"2025-07-28T06:37:15.814Z","msg":"[JobQueueDatabaseStore] fetching existing jobs for queue \"read sync\""}
+{"level":30,"time":"2025-07-28T06:37:15.814Z","msg":"[JobQueue] view sync job queue: starting to stream jobs"}
+{"level":30,"time":"2025-07-28T06:37:15.814Z","msg":"[JobQueueDatabaseStore] fetching existing jobs for queue \"view sync\""}
+{"level":30,"time":"2025-07-28T06:37:15.814Z","msg":"[JobQueue] view once open sync job queue: starting to stream jobs"}
+{"level":30,"time":"2025-07-28T06:37:15.814Z","msg":"[JobQueueDatabaseStore] fetching existing jobs for queue \"view once open sync\""}
+{"level":30,"time":"2025-07-28T06:37:15.814Z","msg":"[JobQueue] delete downloads job queue: starting to stream jobs"}
+{"level":30,"time":"2025-07-28T06:37:15.814Z","msg":"[JobQueueDatabaseStore] fetching existing jobs for queue \"delete downloads\""}
+{"level":30,"time":"2025-07-28T06:37:15.815Z","msg":"[JobQueue] remove storage key job queue: starting to stream jobs"}
+{"level":30,"time":"2025-07-28T06:37:15.815Z","msg":"[JobQueueDatabaseStore] fetching existing jobs for queue \"remove storage key\""}
+{"level":30,"time":"2025-07-28T06:37:15.815Z","msg":"[JobQueue] report spam job queue: starting to stream jobs"}
+{"level":30,"time":"2025-07-28T06:37:15.815Z","msg":"[JobQueueDatabaseStore] fetching existing jobs for queue \"report spam\""}
+{"level":30,"time":"2025-07-28T06:37:15.815Z","msg":"[JobQueue] call link refresh job queue: starting to stream jobs"}
+{"level":30,"time":"2025-07-28T06:37:15.815Z","msg":"[JobQueueDatabaseStore] fetching existing jobs for queue \"call link refresh\""}
+{"level":30,"time":"2025-07-28T06:37:15.815Z","msg":"[challenge] loading 0 challenges"}
+{"level":30,"time":"2025-07-28T06:37:15.815Z","msg":"[networkObserver] Initializing network observer"}
+{"level":30,"time":"2025-07-28T06:37:15.833Z","msg":"[badgeImageFileDownloader] BadgeDownloader#checkForFilesToDownload: downloading 0 badge(s)"}
+{"level":30,"time":"2025-07-28T06:37:15.833Z","msg":"[background] Blocked uuids cleanup: starting..."}
+{"level":30,"time":"2025-07-28T06:37:15.833Z","msg":"[background] Blocked uuids cleanup: complete"}
+{"level":30,"time":"2025-07-28T06:37:15.833Z","msg":"[background] Expiration start timestamp cleanup: starting..."}
+{"level":30,"time":"2025-07-28T06:37:15.833Z","msg":"[JobQueueDatabaseStore] finished fetching existing 0 jobs for queue \"conversation\""}
+{"level":30,"time":"2025-07-28T06:37:15.833Z","msg":"[JobQueueDatabaseStore] finished fetching existing 0 jobs for queue \"single proto\""}
+{"level":30,"time":"2025-07-28T06:37:15.833Z","msg":"[JobQueueDatabaseStore] finished fetching existing 0 jobs for queue \"groupAvatar\""}
+{"level":30,"time":"2025-07-28T06:37:15.833Z","msg":"[JobQueueDatabaseStore] finished fetching existing 0 jobs for queue \"read sync\""}
+{"level":30,"time":"2025-07-28T06:37:15.833Z","msg":"[JobQueueDatabaseStore] finished fetching existing 0 jobs for queue \"view once open sync\""}
+{"level":30,"time":"2025-07-28T06:37:15.833Z","msg":"[JobQueueDatabaseStore] finished fetching existing 0 jobs for queue \"delete downloads\""}
+{"level":30,"time":"2025-07-28T06:37:15.833Z","msg":"[JobQueueDatabaseStore] finished fetching existing 0 jobs for queue \"view sync\""}
+{"level":30,"time":"2025-07-28T06:37:15.833Z","msg":"[JobQueueDatabaseStore] finished fetching existing 0 jobs for queue \"remove storage key\""}
+{"level":30,"time":"2025-07-28T06:37:15.834Z","msg":"[JobQueueDatabaseStore] finished fetching existing 0 jobs for queue \"report spam\""}
+{"level":30,"time":"2025-07-28T06:37:15.834Z","msg":"[JobQueueDatabaseStore] finished fetching existing 0 jobs for queue \"call link refresh\""}
+{"level":30,"time":"2025-07-28T06:37:15.834Z","msg":"[CallLinkFinalizeDeleteManager] CallLinkDeleteJobType/enqueueAllDeletedCallLinks: Found 0 call links to delete"}
+{"level":30,"time":"2025-07-28T06:37:15.834Z","msg":"[JobManager] CallLinkFinalizeDeleteManager: starting"}
+{"level":30,"time":"2025-07-28T06:37:15.834Z","msg":"[@signalapp/ringrtc] src/rust/src/electron.rs:449 audio_device_module using cubeb backend Some(\"pulse\")"}
+{"level":30,"time":"2025-07-28T06:37:15.834Z","msg":"[@signalapp/ringrtc] src/rust/src/core/call_manager.rs:481 RingRTC v2.54.1"}
+{"level":30,"time":"2025-07-28T06:37:15.834Z","msg":"[@signalapp/ringrtc] src/rust/src/core/call_manager.rs:522 set_self_uuid():"}
+{"level":30,"time":"2025-07-28T06:37:15.835Z","msg":"[background] Expiration start timestamp cleanup: Found 0 messages for cleanup"}
+{"level":30,"time":"2025-07-28T06:37:15.835Z","msg":"[background] Expiration start timestamp cleanup: complete"}
+{"level":30,"time":"2025-07-28T06:37:15.835Z","msg":"[syncTasks] Fetching tasks"}
+{"level":30,"time":"2025-07-28T06:37:15.839Z","msg":"[syncTasks] Startup/syncTasks: Queueing 6 sync tasks"}
+{"level":30,"time":"2025-07-28T06:37:15.843Z","msg":"[syncTasks] Fetching tasks"}
+{"level":40,"time":"2025-07-28T06:37:15.843Z","msg":"[ConversationController] lookupOrCreate: Called with neither e164 nor serviceId! reason: ReadSyncs.onSync(timestamp=1753613765112)"}
+{"level":40,"time":"2025-07-28T06:37:15.844Z","msg":"[ConversationController] lookupOrCreate: Called with neither e164 nor serviceId! reason: ReadSyncs.onSync(timestamp=1753613715840)"}
+{"level":30,"time":"2025-07-28T06:37:15.845Z","msg":"[syncTasks] Startup/syncTasks: No sync tasks to process, stopping"}
+{"level":30,"time":"2025-07-28T06:37:15.864Z","msg":"[IdleDetector] Start idle detector"}
+{"level":30,"time":"2025-07-28T06:37:15.864Z","msg":"[app] open inbox"}
+{"level":30,"time":"2025-07-28T06:37:15.865Z","msg":"[ReadSyncs] ReadSyncs.onSync(timestamp=1753506019107) not found: [REDACTED]2d2 [object Undefined] [REDACTED]964"}
+{"level":30,"time":"2025-07-28T06:37:15.865Z","msg":"[ReadSyncs] ReadSyncs.onSync(timestamp=1753613765112) not found: [REDACTED]2d2 [object Undefined] [REDACTED]964"}
+{"level":30,"time":"2025-07-28T06:37:15.867Z","msg":"[ReadSyncs] ReadSyncs.onSync(timestamp=1753514889867) not found: [REDACTED]2d2 [object Undefined] [REDACTED]964"}
+{"level":30,"time":"2025-07-28T06:37:15.867Z","msg":"[ReadSyncs] ReadSyncs.onSync(timestamp=1753506368388) not found: [REDACTED]2d2 [object Undefined] [REDACTED]964"}
+{"level":30,"time":"2025-07-28T06:37:15.867Z","msg":"[ReadSyncs] ReadSyncs.onSync(timestamp=1753613715840) not found: [REDACTED]2d2 [object Undefined] [REDACTED]964"}
+{"level":30,"time":"2025-07-28T06:37:15.872Z","msg":"[ReadSyncs] ReadSyncs.onSync(timestamp=1753529883671) not found: [REDACTED]2d2 [object Undefined] [REDACTED]964"}
+{"level":30,"time":"2025-07-28T06:37:15.943Z","msg":"[@signalapp/libsignal-client] [preconnect] connection succeeded after 760.475ms libsignal_net::connect_state /build/source/rust/net/src/connect_state.rs:567"}
+{"level":30,"time":"2025-07-28T06:37:15.943Z","msg":"[preconnect] WebAPI: preconnect done"}
+{"level":30,"time":"2025-07-28T06:37:16.543Z","msg":"[@signalapp/libsignal-client] [authenticated 2] TCP failed after 14.560µs: Failed to establish TCP connection to any of the IPs libsignal_net_infra::route::connect::logging /build/source/rust/net/infra/src/route/connect/logging.rs:94"}
+{"level":30,"time":"2025-07-28T06:37:16.722Z","msg":"[@signalapp/libsignal-client] [authenticated] connection through chat.signal.org:443 (direct) succeeded after 998.217ms libsignal_net::connect_state /build/source/rust/net/src/connect_state.rs:382"}
+{"level":30,"time":"2025-07-28T06:37:16.722Z","msg":"[@signalapp/libsignal-client] successfully connected authenticated chat libsignal_bridge_types::net::chat /build/source/rust/bridge/shared/types/src/net/chat.rs:341"}
+{"level":30,"time":"2025-07-28T06:37:16.722Z","msg":"[WebsocketResources] LibsignalWebSocketResource(authenticated) connected"}
+{"level":30,"time":"2025-07-28T06:37:16.723Z","msg":"[background] pauseQueuesAndNotificationsOnSocketConnect: pausing"}
+{"level":30,"time":"2025-07-28T06:37:16.723Z","msg":"[notifications] NotificationService: disabling"}
+{"level":30,"time":"2025-07-28T06:37:16.723Z","msg":"[background] online"}
+{"level":30,"time":"2025-07-28T06:37:16.723Z","msg":"[background] afterAuthSocketConnect.0: starting"}
+{"level":30,"time":"2025-07-28T06:37:16.724Z","msg":"[RemoteConfig] forceRefreshRemoteConfig: afterAuthSocketConnect/firstConnect"}
+{"level":30,"time":"2025-07-28T06:37:16.724Z","msg":"[SocketManager] connected authenticated socket (localPort: 57044)"}
+{"level":30,"time":"2025-07-28T06:37:16.724Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/config"}
+{"level":30,"time":"2025-07-28T06:37:16.726Z","msg":"[WebAPI] onServerAlerts: number of alerts received: 0"}
+{"level":30,"time":"2025-07-28T06:37:16.728Z","msg":"[SocketManager] request handler unavailable, queued request. Queue size: 1"}
+{"level":30,"time":"2025-07-28T06:37:16.864Z","msg":"[expiringMessagesDeletion] checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2025-07-28T06:37:16.864Z","msg":"[expiringMessagesDeletion] checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2025-07-28T06:37:16.955Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/config 200 Success"}
+{"level":30,"time":"2025-07-28T06:37:16.966Z","msg":"[background] afterAuthSocketConnect.0 {\"wasBackupImported\":false}"}
+{"level":30,"time":"2025-07-28T06:37:16.966Z","msg":"[background] afterAuthSocketConnect.0: enabling message processing"}
+{"level":30,"time":"2025-07-28T06:37:16.966Z","msg":"[MessageReceiver] startProcessingQueue"}
+{"level":30,"time":"2025-07-28T06:37:16.966Z","msg":"[MessageReceiver] addCachedMessagesToQueue"}
+{"level":30,"time":"2025-07-28T06:37:16.966Z","msg":"[MessageReceiver] getAllFromCache"}
+{"level":30,"time":"2025-07-28T06:37:16.966Z","msg":"[SocketManager] processing 1 queued incoming requests"}
+{"level":30,"time":"2025-07-28T06:37:16.966Z","msg":"[MessageReceiver] got request /api/v1/queue/empty"}
+{"level":30,"time":"2025-07-28T06:37:16.966Z","msg":"[background] afterAuthSocketConnect.0: triggering storage service sync"}
+{"level":30,"time":"2025-07-28T06:37:16.967Z","msg":"[background] enableStorageService: waiting for backupReady"}
+{"level":30,"time":"2025-07-28T06:37:16.967Z","msg":"[background] afterAuthSocketConnect/afterEveryAuthConnect"}
+{"level":30,"time":"2025-07-28T06:37:16.967Z","msg":"[challenge] online, starting 0 queues"}
+{"level":30,"time":"2025-07-28T06:37:16.967Z","msg":"[challenge] startAllQueues force=false"}
+{"level":30,"time":"2025-07-28T06:37:16.967Z","msg":"[groupCredentialFetcher] initializeGroupCredentialFetcher: starting..."}
+{"level":30,"time":"2025-07-28T06:37:16.967Z","msg":"[groupCredentialFetcher] maybeFetchNewCredentials: no new credentials needed"}
+{"level":30,"time":"2025-07-28T06:37:16.968Z","msg":"[batcher] Flushing saveAttachmentDownloadJobs batcher items.length=0"}
+{"level":30,"time":"2025-07-28T06:37:16.968Z","msg":"[batcher] Flushing complete saveAttachmentDownloadJobs for batcher"}
+{"level":30,"time":"2025-07-28T06:37:16.968Z","msg":"[background] afterAuthSocketConnect/afterEveryLinkedStartup"}
+{"level":30,"time":"2025-07-28T06:37:16.968Z","msg":"[Stickers] downloadQueuedPacks"}
+{"level":30,"time":"2025-07-28T06:37:16.968Z","msg":"[background] enableStorageService: enabling and running"}
+{"level":30,"time":"2025-07-28T06:37:16.968Z","msg":"[storage] enableStorageService"}
+{"level":30,"time":"2025-07-28T06:37:16.968Z","msg":"[WebAPI] PUT (WS) https://chat.signal.org/v1/devices/capabilities"}
+{"level":30,"time":"2025-07-28T06:37:16.968Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/devices"}
+{"level":30,"time":"2025-07-28T06:37:16.969Z","msg":"[MessageReceiver] getAllFromCache - 0 unprocessed"}
+{"level":30,"time":"2025-07-28T06:37:16.969Z","msg":"[MessageReceiver] getAllFromCache - done retrieving 0 unprocessed"}
+{"level":30,"time":"2025-07-28T06:37:16.969Z","msg":"[MessageReceiver] queueAllCached - finished"}
+{"level":30,"time":"2025-07-28T06:37:16.969Z","msg":"[MessageReceiver] finished processing messages after 'empty', now waiting for application"}
+{"level":30,"time":"2025-07-28T06:37:16.969Z","msg":"[batcher] Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[batcher] Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[batcher] Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[batcher] Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[MessageReceiver] emitting 'empty' event"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[batcher] waitForAllBatchers"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[batcher] Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[batcher] Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[batcher] Flushing messageBatcher.updateMessageBatcher batcher items.length=0"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[batcher] Flushing complete messageBatcher.updateMessageBatcher for batcher"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[batcher] Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[batcher] Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[batcher] Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[batcher] Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[batcher] Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[batcher] Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[batcher] Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[batcher] Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[batcher] Flushing changedConvoBatcher batcher items.length=0"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[batcher] Flushing complete changedConvoBatcher for batcher"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[batcher] Flushing saveAttachmentDownloadJobs batcher items.length=0"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[batcher] Flushing complete saveAttachmentDownloadJobs for batcher"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[waitBatcher] flushAllWaitBatchers"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[waitBatcher] Flushing start messageBatcher.saveNewMessageBatcher for waitBatcher items.length=0"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[waitBatcher] Flushing complete messageBatcher.saveNewMessageBatcher for waitBatcher"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[waitBatcher] Flushing start processReceiptBatcher for waitBatcher items.length=0"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[waitBatcher] Flushing complete processReceiptBatcher for waitBatcher"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[waitBatcher] Flushing start deleteSentProtoBatcher for waitBatcher items.length=0"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[waitBatcher] Flushing complete deleteSentProtoBatcher for waitBatcher"}
+{"level":30,"time":"2025-07-28T06:37:16.970Z","msg":"[background] onEmpty: All outstanding database requests complete"}
+{"level":30,"time":"2025-07-28T06:37:16.971Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T06:37:16.971Z","msg":"[background] restartQueuesAndNotificationsOnEmpty: restarting"}
+{"level":30,"time":"2025-07-28T06:37:16.971Z","msg":"[notifications] NotificationService: enabling"}
+{"level":30,"time":"2025-07-28T06:37:16.973Z","msg":"[background] App loaded - messages: 0"}
+{"level":30,"time":"2025-07-28T06:37:16.973Z","msg":"[StartupQueue] Processing 0 actions"}
+{"level":30,"time":"2025-07-28T06:37:16.973Z","msg":"[routineProfileRefresh] Creating new RoutineProfileRefresher instance with id 2"}
+{"level":30,"time":"2025-07-28T06:37:16.973Z","msg":"[routineProfileRefresh] RoutineProfileRefresher.start/2: waiting for 0ms"}
+{"level":30,"time":"2025-07-28T06:37:16.973Z","msg":"[usernameIntegrity] running the check in 80880250ms"}
+{"level":30,"time":"2025-07-28T06:37:16.973Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T06:37:16.984Z","msg":"[expiration] Build expires (local): 2025-10-08T00:58:10.000Z"}
+{"level":30,"time":"2025-07-28T06:37:17.065Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: starting"}
+{"level":30,"time":"2025-07-28T06:37:17.065Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: updating last refresh time"}
+{"level":30,"time":"2025-07-28T06:37:17.069Z","msg":"[JobManager] AttachmentDownloadManager: starting"}
+{"level":30,"time":"2025-07-28T06:37:17.082Z","msg":"[background] onEmpty/syncTasks: Incrementing all sync task attempts"}
+{"level":30,"time":"2025-07-28T06:37:17.096Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: starting to refresh conversations"}
+{"level":30,"time":"2025-07-28T06:37:17.096Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshing profile for [REDACTED]111 ([REDACTED]383)"}
+{"level":30,"time":"2025-07-28T06:37:17.096Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: refreshed profile for [REDACTED]111 ([REDACTED]383)"}
+{"level":30,"time":"2025-07-28T06:37:17.097Z","msg":"[routineProfileRefresh] routineProfileRefresh/2: successfully refreshed 1 out of 1 conversation(s)"}
+{"level":30,"time":"2025-07-28T06:37:17.197Z","msg":"[WebAPI] PUT (WS) https://chat.signal.org/v1/devices/capabilities 204 Success"}
+{"level":30,"time":"2025-07-28T06:37:17.201Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/devices 200 Success"}
+{"level":30,"time":"2025-07-28T06:37:17.202Z","msg":"[onDeviceNameChangeSync] fetchAndUpdateDeviceName: new name matches existing name"}
+{"level":30,"time":"2025-07-28T06:37:17.469Z","msg":"[storage] sync: starting... reason=afterFirstAuthSocketConnect"}
+{"level":30,"time":"2025-07-28T06:37:17.469Z","msg":"[storage] sync: fetching latest after version=509"}
+{"level":30,"time":"2025-07-28T06:37:17.469Z","msg":"[storage] sync: fetch start"}
+{"level":30,"time":"2025-07-28T06:37:17.469Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/storage/auth"}
+{"level":30,"time":"2025-07-28T06:37:17.691Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/storage/auth 200 Success"}
+{"level":30,"time":"2025-07-28T06:37:17.699Z","msg":"[WebAPI] GET (REST) https://storage.signal.org/v1/storage/manifest/version/509"}
+{"level":30,"time":"2025-07-28T06:37:17.886Z","msg":"[createHTTPSAgent] createHTTPSAgent.createConnection(storage.signal.org): connected to IPv4 addr after 161ms (attempts v4=1 v6=0)"}
+{"level":30,"time":"2025-07-28T06:37:17.972Z","msg":"[notifications] NotificationService not updating notifications. Notifications are enabled; app is not focused; there is no notification data"}
+{"level":30,"time":"2025-07-28T06:37:18.240Z","msg":"[WebAPI] GET (REST) https://storage.signal.org/v1/storage/manifest/version/509 204 Success"}
+{"level":30,"time":"2025-07-28T06:37:18.241Z","msg":"[storage] sync: no newer manifest, ok"}
+{"level":30,"time":"2025-07-28T06:37:18.241Z","msg":"[storage] sync: no updates, version=509"}
+{"level":30,"time":"2025-07-28T06:37:19.998Z","msg":"[conversations] preloadNewestMessages/[REDACTED]c08 ([REDACTED]c70): starting"}
+{"level":40,"time":"2025-07-28T06:37:20.008Z","msg":"[ConversationController] lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier(1753677229095)"}
+{"level":40,"time":"2025-07-28T06:37:20.008Z","msg":"[ConversationController] lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier(1753677906272)"}
+{"level":40,"time":"2025-07-28T06:37:20.008Z","msg":"[ConversationController] lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier(1753677909808)"}
+{"level":40,"time":"2025-07-28T06:37:20.008Z","msg":"[ConversationController] lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier(1753677915912)"}
+{"level":40,"time":"2025-07-28T06:37:20.008Z","msg":"[ConversationController] lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier(1753677935744)"}
+{"level":40,"time":"2025-07-28T06:37:20.008Z","msg":"[ConversationController] lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier(1753677982920)"}
+{"level":40,"time":"2025-07-28T06:37:20.009Z","msg":"[ConversationController] lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier(1753677997064)"}
+{"level":40,"time":"2025-07-28T06:37:20.009Z","msg":"[ConversationController] lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier(1753678004032)"}
+{"level":40,"time":"2025-07-28T06:37:20.009Z","msg":"[ConversationController] lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier(1753678179432)"}
+{"level":40,"time":"2025-07-28T06:37:20.009Z","msg":"[ConversationController] lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier(1753678277209)"}
+{"level":40,"time":"2025-07-28T06:37:20.009Z","msg":"[ConversationController] lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier(1753678283136)"}
+{"level":40,"time":"2025-07-28T06:37:20.009Z","msg":"[ConversationController] lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier(1753678847666)"}
+{"level":40,"time":"2025-07-28T06:37:20.009Z","msg":"[ConversationController] lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier(1753681246339)"}
+{"level":40,"time":"2025-07-28T06:37:20.009Z","msg":"[ConversationController] lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier(1753681841417)"}
+{"level":40,"time":"2025-07-28T06:37:20.009Z","msg":"[ConversationController] lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier(1753682050045)"}
+{"level":30,"time":"2025-07-28T06:37:20.009Z","msg":"[conversations] preloadNewestMessages/[REDACTED]c08 ([REDACTED]c70): preloaded 30 messages, latest timestamp=1753682050045"}
+{"level":30,"time":"2025-07-28T06:37:20.028Z","msg":"[conversations] conversation [REDACTED]c08 ([REDACTED]c70) open start"}
+{"level":30,"time":"2025-07-28T06:37:20.094Z","msg":"[conversations] onConversationOpened([REDACTED]c08 ([REDACTED]c70)): Updating newly opened conversation state"}
+{"level":30,"time":"2025-07-28T06:37:20.102Z","msg":"[conversations] fetchLatestGroupV2Data: Not groupV2"}
+{"level":30,"time":"2025-07-28T06:37:20.104Z","msg":"[profiles] buildGetProfileOptions([REDACTED]c08 ([REDACTED]c70)): using unexpired profile key credential"}
+{"level":30,"time":"2025-07-28T06:37:20.104Z","msg":"[conversations] loadNewestMessages/[REDACTED]c08 ([REDACTED]c70): preload cache still valid, skipping"}
+{"level":30,"time":"2025-07-28T06:37:20.215Z","msg":"[conversations] conversation [REDACTED]c08 ([REDACTED]c70) open took 187ms"}
+{"level":30,"time":"2025-07-28T06:37:20.242Z","msg":"[profiles] getProfile([REDACTED]c08 ([REDACTED]c70)): Fetching profile (versioned, unauth: accessKey)"}
+{"level":30,"time":"2025-07-28T06:37:20.243Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]c08/[REDACTED]09a (unauth+key)"}
+{"level":30,"time":"2025-07-28T06:37:20.243Z","msg":"[SocketManager] connecting unauthenticated socket"}
+{"level":30,"time":"2025-07-28T06:37:20.243Z","msg":"[SocketManager] connecting unauthenticated socket, transport option [libsignal]"}
+{"level":30,"time":"2025-07-28T06:37:20.305Z","msg":"[@signalapp/libsignal-client] connecting unauthenticated chat libsignal_bridge_types::net::chat /build/source/rust/bridge/shared/types/src/net/chat.rs:326"}
+{"level":30,"time":"2025-07-28T06:37:20.305Z","msg":"[@signalapp/libsignal-client] [unauthenticated] starting connection attempt with 1 routes libsignal_net::connect_state /build/source/rust/net/src/connect_state.rs:306"}
+{"level":40,"time":"2025-07-28T06:37:20.310Z","msg":"[ConversationController] lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier(1753682050045)"}
+{"level":40,"time":"2025-07-28T06:37:20.310Z","msg":"[ConversationController] lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier(1753682050045)"}
+{"level":40,"time":"2025-07-28T06:37:20.316Z","msg":"[ConversationController] lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier(1753682050045)"}
+{"level":40,"time":"2025-07-28T06:37:20.316Z","msg":"[ConversationController] lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier(1753682050045)"}
+{"level":30,"time":"2025-07-28T06:37:20.348Z","msg":"[markConversationRead] markConversationRead([REDACTED]c08 ([REDACTED]c70)) {\"newestSentAt\":1753682050045,\"newestUnreadAt\":1753576891099,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":40,"time":"2025-07-28T06:37:20.897Z","msg":"[background] idleDetector/idle: fetching at most 250 for migration"}
+{"level":30,"time":"2025-07-28T06:37:20.900Z","msg":"[background] idleDetector/idle: Upgraded messages: {\"done\":true,\"numProcessed\":0,\"numSucceeded\":0,\"numFailedUpgrade\":0,\"numFailedSave\":0,\"fetchDuration\":2,\"upgradeDuration\":0,\"saveDuration\":0,\"totalDuration\":2}"}
+{"level":30,"time":"2025-07-28T06:37:20.900Z","msg":"[IdleDetector] Stop idle detector"}
+{"level":30,"time":"2025-07-28T06:37:20.900Z","msg":"[background] idleDetector/idle: Background migration complete. Stopping."}
+{"level":30,"time":"2025-07-28T06:37:21.246Z","msg":"[@signalapp/libsignal-client] [unauthenticated] connection through chat.signal.org:443 (direct) succeeded after 1.003s libsignal_net::connect_state /build/source/rust/net/src/connect_state.rs:382"}
+{"level":30,"time":"2025-07-28T06:37:21.246Z","msg":"[@signalapp/libsignal-client] successfully connected unauthenticated chat libsignal_bridge_types::net::chat /build/source/rust/bridge/shared/types/src/net/chat.rs:341"}
+{"level":30,"time":"2025-07-28T06:37:21.247Z","msg":"[WebsocketResources] LibsignalWebSocketResource(unauthenticated) connected"}
+{"level":30,"time":"2025-07-28T06:37:21.247Z","msg":"[SocketManager] connected unauthenticated socket (localPort: 54780)"}
+{"level":30,"time":"2025-07-28T06:37:21.247Z","msg":"[SocketManager] starting expiration timer for unauthenticated socket"}
+{"level":30,"time":"2025-07-28T06:37:21.474Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/profile/[REDACTED]c08/[REDACTED]09a (unauth+key) 200 Success"}
+{"level":30,"time":"2025-07-28T06:37:21.474Z","msg":"[profiles] getProfile([REDACTED]c08 ([REDACTED]c70)): setting sealedSender to ENABLED (unidentifiedAccess: true, unrestrictedUnidentifiedAccess: false, accessKey: true)"}
+{"level":30,"time":"2025-07-28T06:37:21.900Z","msg":"[expiringMessagesDeletion] checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2025-07-28T06:37:21.901Z","msg":"[expiringMessagesDeletion] checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2025-07-28T06:37:25.003Z","msg":"[notifications] NotificationService: clearing notification and requesting an update"}
+{"level":30,"time":"2025-07-28T06:37:25.003Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/config"}
+{"level":30,"time":"2025-07-28T06:37:25.251Z","msg":"[WebAPI] GET (WS) https://chat.signal.org/v1/config 200 Success"}
+{"level":30,"time":"2025-07-28T06:37:26.003Z","msg":"[notifications] NotificationService not updating notifications. Notifications are enabled; app is not focused; there is no notification data"}
+{"level":30,"time":"2025-07-28T06:37:46.725Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:37:51.251Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(unauthenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:38:16.972Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:38:17.097Z","msg":"[routineProfileRefresh] RoutineProfileRefresher.start/2: waiting for 3539968ms"}
+{"level":30,"time":"2025-07-28T06:38:21.476Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(unauthenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:38:47.208Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:38:51.702Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(unauthenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:39:16.971Z","msg":"[MessageReceiver] getAllFromCache"}
+{"level":30,"time":"2025-07-28T06:39:16.972Z","msg":"[MessageReceiver] getAllFromCache - 0 unprocessed"}
+{"level":30,"time":"2025-07-28T06:39:16.972Z","msg":"[MessageReceiver] getAllFromCache - done retrieving 0 unprocessed"}
+{"level":30,"time":"2025-07-28T06:39:16.972Z","msg":"[MessageReceiver] queueAllCached - finished"}
+{"level":30,"time":"2025-07-28T06:39:17.430Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:39:21.927Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(unauthenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:39:47.664Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:39:52.153Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(unauthenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:40:17.931Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:40:22.381Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(unauthenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:40:48.177Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:40:52.605Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(unauthenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:41:08.215Z","msg":"[notifications] NotificationService: clearing notification and requesting an update"}
+{"level":30,"time":"2025-07-28T06:41:08.216Z","msg":"[markConversationRead] markConversationRead([REDACTED]c08 ([REDACTED]c70)) {\"newestSentAt\":1753682050045,\"newestUnreadAt\":1753576891099,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2025-07-28T06:41:09.215Z","msg":"[notifications] NotificationService not updating notifications. Notifications are enabled; app is not focused; there is no notification data"}
+{"level":30,"time":"2025-07-28T06:41:16.568Z","msg":"[notifications] NotificationService: clearing notification and requesting an update"}
+{"level":30,"time":"2025-07-28T06:41:16.579Z","msg":"[markConversationRead] markConversationRead([REDACTED]c08 ([REDACTED]c70)) {\"newestSentAt\":1753682050045,\"newestUnreadAt\":1753576891099,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2025-07-28T06:41:17.569Z","msg":"[notifications] NotificationService not updating notifications. Notifications are enabled; app is focused; there is no notification data"}
+{"level":30,"time":"2025-07-28T06:41:18.397Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:41:22.829Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(unauthenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:41:31.587Z","msg":"[notifications] NotificationService: clearing notification and requesting an update"}
+{"level":30,"time":"2025-07-28T06:41:31.619Z","msg":"[markConversationRead] markConversationRead([REDACTED]c08 ([REDACTED]c70)) {\"newestSentAt\":1753682050045,\"newestUnreadAt\":1753576891099,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2025-07-28T06:41:32.588Z","msg":"[notifications] NotificationService not updating notifications. Notifications are enabled; app is focused; there is no notification data"}
+{"level":30,"time":"2025-07-28T06:41:33.555Z","msg":"[markConversationRead] markConversationRead([REDACTED]c08 ([REDACTED]c70)) {\"newestSentAt\":1753681841417,\"newestUnreadAt\":1753576891093,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2025-07-28T06:41:34.055Z","msg":"[markConversationRead] markConversationRead([REDACTED]c08 ([REDACTED]c70)) {\"newestSentAt\":1753678902750,\"newestUnreadAt\":1753576891082,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2025-07-28T06:41:34.703Z","msg":"[markConversationRead] markConversationRead([REDACTED]c08 ([REDACTED]c70)) {\"newestSentAt\":1753678227866,\"newestUnreadAt\":1753576891065,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2025-07-28T06:41:36.510Z","msg":"[markConversationRead] markConversationRead([REDACTED]c08 ([REDACTED]c70)) {\"newestSentAt\":1753678277209,\"newestUnreadAt\":1753576891069,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2025-07-28T06:41:37.010Z","msg":"[markConversationRead] markConversationRead([REDACTED]c08 ([REDACTED]c70)) {\"newestSentAt\":1753682050045,\"newestUnreadAt\":1753576891099,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2025-07-28T06:41:48.625Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:41:53.067Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(unauthenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:42:16.323Z","msg":"[retryPlaceholders] getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2025-07-28T06:42:16.330Z","msg":"[background] retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2025-07-28T06:42:18.848Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:42:21.311Z","msg":"[SocketManager] shutting down unauthenticated socket after timeout"}
+{"level":40,"time":"2025-07-28T06:42:21.312Z","msg":"[SocketManager] unauthenticated socket closed with code=3000 and reason=Shutdown"}
+{"level":30,"time":"2025-07-28T06:42:21.312Z","msg":"[@signalapp/libsignal-client] [unauthenticated] chat handler task finishing after localdisconnect libsignal_net::chat::ws rust/net/src/chat/ws.rs:662"}
+{"level":30,"time":"2025-07-28T06:42:49.078Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:43:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T06:43:16.312Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T06:43:19.302Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:43:49.551Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:44:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T06:44:16.311Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T06:44:19.775Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:44:50.026Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:45:16.312Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T06:45:16.312Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T06:45:20.259Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:45:50.509Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:46:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T06:46:16.311Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T06:46:20.730Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:46:50.981Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:47:16.312Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T06:47:16.312Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T06:47:16.317Z","msg":"[retryPlaceholders] getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2025-07-28T06:47:16.327Z","msg":"[background] retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2025-07-28T06:47:21.207Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:47:51.459Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:48:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T06:48:16.311Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T06:48:21.682Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:48:51.922Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:49:16.312Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T06:49:16.312Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T06:49:22.206Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:49:52.448Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:50:16.312Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T06:50:16.312Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T06:50:22.676Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:50:53.183Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:51:16.312Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T06:51:16.312Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T06:51:23.433Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:51:53.684Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:52:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T06:52:16.312Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T06:52:16.315Z","msg":"[retryPlaceholders] getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2025-07-28T06:52:16.325Z","msg":"[background] retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2025-07-28T06:52:23.921Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:52:54.172Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:53:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T06:53:16.312Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T06:53:24.400Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:53:54.649Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:54:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T06:54:16.311Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T06:54:24.910Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:54:55.139Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:55:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T06:55:16.312Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T06:55:25.368Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:55:55.619Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:56:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T06:56:16.311Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T06:56:25.841Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:56:56.092Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:57:16.312Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T06:57:16.312Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T06:57:16.314Z","msg":"[retryPlaceholders] getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2025-07-28T06:57:16.325Z","msg":"[background] retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2025-07-28T06:57:26.332Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:57:56.583Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:58:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T06:58:16.311Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T06:58:26.816Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:58:57.065Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:59:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T06:59:16.312Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T06:59:27.295Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T06:59:57.545Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:00:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T07:00:16.311Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T07:00:27.795Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:00:58.046Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:01:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T07:01:16.312Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T07:01:28.274Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:01:58.511Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:02:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T07:02:16.312Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T07:02:16.315Z","msg":"[retryPlaceholders] getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2025-07-28T07:02:16.320Z","msg":"[background] retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2025-07-28T07:02:28.745Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:02:58.995Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:03:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T07:03:16.311Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T07:03:29.243Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:03:59.494Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:04:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T07:04:16.311Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T07:04:29.729Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:04:37.185Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T07:04:37.186Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T07:04:37.186Z","msg":"[notifications] NotificationService: clearing notification and requesting an update"}
+{"level":30,"time":"2025-07-28T07:04:37.188Z","msg":"[markConversationRead] markConversationRead([REDACTED]c08 ([REDACTED]c70)) {\"newestSentAt\":1753682050045,\"newestUnreadAt\":1753576891099,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2025-07-28T07:04:38.185Z","msg":"[expiringMessagesDeletion] checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2025-07-28T07:04:38.186Z","msg":"[notifications] NotificationService not updating notifications. Notifications are enabled; app is focused; there is no notification data"}
+{"level":30,"time":"2025-07-28T07:04:38.186Z","msg":"[expiringMessagesDeletion] checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2025-07-28T07:04:59.960Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:05:30.180Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:06:00.413Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:06:30.665Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:06:56.835Z","msg":"[@signalapp/ringrtc] src/rust/src/webrtc/audio_device_module.rs:251 cubeb: cubeb_pulse.c:1597:Removing sink index 64"}
+{"level":30,"time":"2025-07-28T07:06:56.835Z","msg":"[@signalapp/ringrtc] src/rust/src/webrtc/audio_device_module.rs:251 cubeb: cubeb_pulse.c:1586:Removing source index 64"}
+{"level":30,"time":"2025-07-28T07:06:57.028Z","msg":"[@signalapp/ringrtc] src/rust/src/webrtc/audio_device_module.rs:251 cubeb: cubeb_pulse.c:1602:Adding sink index 2487"}
+{"level":30,"time":"2025-07-28T07:06:57.028Z","msg":"[@signalapp/ringrtc] src/rust/src/webrtc/audio_device_module.rs:251 cubeb: cubeb_pulse.c:1591:Adding source index 2487"}
+{"level":30,"time":"2025-07-28T07:07:00.893Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:07:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T07:07:16.311Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T07:07:16.314Z","msg":"[retryPlaceholders] getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2025-07-28T07:07:16.325Z","msg":"[background] retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2025-07-28T07:07:31.138Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:08:01.359Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:08:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T07:08:16.312Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T07:08:31.609Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:09:01.832Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:09:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T07:09:16.311Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T07:09:32.061Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:10:02.286Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:10:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T07:10:16.312Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T07:10:32.522Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:11:02.774Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:11:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T07:11:16.311Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T07:11:33.026Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:12:03.277Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:12:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T07:12:16.312Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T07:12:16.315Z","msg":"[retryPlaceholders] getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2025-07-28T07:12:16.320Z","msg":"[background] retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2025-07-28T07:12:33.505Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:13:03.755Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:13:14.680Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T07:13:14.680Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T07:13:16.313Z","msg":"[expiringMessagesDeletion] checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2025-07-28T07:13:16.314Z","msg":"[expiringMessagesDeletion] checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2025-07-28T07:13:34.011Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:14:04.236Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:14:34.461Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:15:04.712Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:15:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T07:15:16.311Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T07:15:34.950Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:16:05.174Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:16:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T07:16:16.312Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T07:16:35.424Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:17:05.649Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:17:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T07:17:16.311Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T07:17:16.315Z","msg":"[retryPlaceholders] getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2025-07-28T07:17:16.319Z","msg":"[background] retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2025-07-28T07:17:35.888Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:18:06.117Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:18:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T07:18:16.312Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T07:18:36.371Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:19:06.621Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:19:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T07:19:16.311Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T07:19:29.552Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T07:19:29.552Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T07:19:30.552Z","msg":"[expiringMessagesDeletion] checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2025-07-28T07:19:30.553Z","msg":"[expiringMessagesDeletion] checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2025-07-28T07:19:30.758Z","msg":"[notifications] NotificationService: clearing notification and requesting an update"}
+{"level":30,"time":"2025-07-28T07:19:30.772Z","msg":"[markConversationRead] markConversationRead([REDACTED]c08 ([REDACTED]c70)) {\"newestSentAt\":1753682050045,\"newestUnreadAt\":1753576891099,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2025-07-28T07:19:31.759Z","msg":"[notifications] NotificationService not updating notifications. Notifications are enabled; app is not focused; there is no notification data"}
+{"level":30,"time":"2025-07-28T07:19:36.848Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:20:07.122Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:20:37.351Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:21:07.748Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:21:37.991Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:22:08.231Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:22:16.314Z","msg":"[retryPlaceholders] getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2025-07-28T07:22:16.325Z","msg":"[background] retryPlaceholders/interval: Found 0 expired items"}
+{"level":30,"time":"2025-07-28T07:22:38.462Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:23:08.684Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:23:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T07:23:16.311Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T07:23:38.924Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:24:09.173Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:24:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T07:24:16.311Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T07:24:39.426Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:25:09.661Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:25:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T07:25:16.311Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T07:25:39.911Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:26:10.155Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:26:16.311Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T07:26:16.312Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T07:26:35.650Z","msg":"[UpdateKeysListener] Next update scheduled for 2025-07-30T04:32:58.485Z"}
+{"level":30,"time":"2025-07-28T07:26:35.650Z","msg":"[releaseNotesFetcher] Next update scheduled for 2025-07-29T03:23:54.832Z"}
+{"level":30,"time":"2025-07-28T07:26:36.651Z","msg":"[expiringMessagesDeletion] checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2025-07-28T07:26:36.651Z","msg":"[expiringMessagesDeletion] checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2025-07-28T07:26:40.381Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:27:10.628Z","msg":"[WebsocketResources] WebSocketResources.KeepAlive(LibsignalWebSocketResource(authenticated)).send: Sending a keepalive message"}
+{"level":30,"time":"2025-07-28T07:27:16.314Z","msg":"[retryPlaceholders] getExpiredAndRemove: Found 0 expired items"}
+{"level":30,"time":"2025-07-28T07:27:16.325Z","msg":"[background] retryPlaceholders/interval: Found 0 expired items"}

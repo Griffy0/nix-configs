@@ -1,0 +1,9 @@
+2025-07-27 15:48:36.873 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-27 15:48:36.884 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-27 15:48:36.884 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-27 15:48:37.117 [info] Started local extension host with pid 12215.
+2025-07-27 15:48:37.724 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-07-27 15:48:39.808 [info] [perf] Render performance baseline is 18ms
+2025-07-27 15:53:19.826 [error] [text file model] handleSaveError(24) - exit - resulted in a save error: Error: Unable to write file '/etc/nixos/configuration.nix' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/etc/nixos/configuration.nix') file:///etc/nixos/configuration.nix
+2025-07-27 15:53:24.128 [error] [text file model] handleSaveError(24) - exit - resulted in a save error: Error: No polkit authentication agent found. file:///etc/nixos/configuration.nix
+2025-07-27 15:53:27.327 [error] [text file model] handleSaveError(24) - exit - resulted in a save error: Error: No polkit authentication agent found. file:///etc/nixos/configuration.nix

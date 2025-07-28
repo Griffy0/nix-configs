@@ -1,0 +1,71 @@
+{"level":30,"time":"2025-07-28T06:37:13.880Z","msg":"[startup_config] Set Windows Application User Model ID (AUMID) {\"AUMID\":\"org.whispersystems.signal-desktop\"}"}
+{"level":30,"time":"2025-07-28T06:37:13.895Z","msg":"[user_config] userData: /home/anon/.config/Signal"}
+{"level":30,"time":"2025-07-28T06:37:13.896Z","msg":"[base_config] config/get: Successfully read user config file"}
+{"level":30,"time":"2025-07-28T06:37:13.976Z","msg":"[base_config] config/get: Successfully read ephemeral config file"}
+{"level":30,"time":"2025-07-28T06:37:14.040Z","msg":"[app/main] making app single instance"}
+{"level":30,"time":"2025-07-28T06:37:14.430Z","msg":"[app/main] got fast localeOverride setting null"}
+{"level":30,"time":"2025-07-28T06:37:14.431Z","msg":"[app/main] app.ready: hour cycle preference: UnknownPreference"}
+{"level":30,"time":"2025-07-28T06:37:14.431Z","msg":"[app/main] app.ready: preferred system locales: [\"en-AU\",\"en\"]"}
+{"level":30,"time":"2025-07-28T06:37:14.431Z","msg":"[app/main] locale: Supported locales: af-ZA, ar, az-AZ, bg-BG, bn-BD, bs-BA, ca, cs, da, de, el, en, es, et-EE, eu, fa-IR, fi, fr, ga-IE, gl-ES, gu-IN, he, hi-IN, hr-HR, hu, id, it, ja, ka-GE, kk-KZ, km-KH, kn-IN, ko, ky-KG, lt-LT, lv-LV, mk-MK, ml-IN, mr-IN, ms, my, nb, nl, pa-IN, pl, pt-BR, pt-PT, ro-RO, ru, sk-SK, sl-SI, sq-AL, sr, sv, sw, ta-IN, te-IN, th, tl-PH, tr, ug, uk-UA, ur, vi, yue, zh-CN, zh-HK, zh-Hant"}
+{"level":30,"time":"2025-07-28T06:37:14.431Z","msg":"[app/main] locale: Preferred locales: en-AU, en"}
+{"level":30,"time":"2025-07-28T06:37:14.431Z","msg":"[app/main] locale: Locale Override: null"}
+{"level":30,"time":"2025-07-28T06:37:14.433Z","msg":"[app/main] locale: Matched locale: en"}
+{"level":40,"time":"2025-07-28T06:37:14.459Z","msg":"[setupI18nMain] intl.onWarn [@formatjs/intl] \"defaultRichTextElements\" was specified but \"message\" was not pre-compiled. \nPlease consider using \"@formatjs/cli\" to pre-compile your messages for performance.\nFor more details see https://formatjs.github.io/docs/getting-started/message-distribution"}
+{"level":30,"time":"2025-07-28T06:37:14.459Z","msg":"[app/main] locale: Text info direction for en: ltr"}
+{"level":30,"time":"2025-07-28T06:37:14.460Z","msg":"[app/main] getSQLKey: using legacy key"}
+{"level":30,"time":"2025-07-28T06:37:14.460Z","msg":"[SystemTraySettingCache] getSystemTraySetting got value DoNotUseSystemTray"}
+{"level":30,"time":"2025-07-28T06:37:14.460Z","msg":"[SystemTraySettingCache] getSystemTraySetting returning DoNotUseSystemTray"}
+{"level":30,"time":"2025-07-28T06:37:14.461Z","msg":"[app/main] app ready"}
+{"level":30,"time":"2025-07-28T06:37:14.461Z","msg":"[app/main] starting version 7.61.0"}
+{"level":30,"time":"2025-07-28T06:37:14.461Z","msg":"[app/main] media access status [object Undefined] [object Undefined] [object Undefined]"}
+{"level":30,"time":"2025-07-28T06:37:14.462Z","msg":"[app/main] got fast theme-setting value dark"}
+{"level":30,"time":"2025-07-28T06:37:14.477Z","msg":"[app/main] got fast spellcheck setting true"}
+{"level":30,"time":"2025-07-28T06:37:14.477Z","msg":"[app/main] got fast theme-setting value dark"}
+{"level":30,"time":"2025-07-28T06:37:14.477Z","msg":"[app/main] got fast spellcheck setting true"}
+{"level":30,"time":"2025-07-28T06:37:14.478Z","msg":"[app/main] visibleOnAnyScreen(window): x=1, y=17, width=1506, height=1244"}
+{"level":30,"time":"2025-07-28T06:37:14.478Z","msg":"[app/main] visibleOnAnyScreen(display #3): x=3015, y=0, width=1053, height=1684"}
+{"level":30,"time":"2025-07-28T06:37:14.478Z","msg":"[app/main] visibleOnAnyScreen(display #5): x=0, y=0, width=3016, height=1263"}
+{"level":30,"time":"2025-07-28T06:37:14.478Z","msg":"[app/main] Initializing BrowserWindow config: {\"show\":false,\"width\":1506,\"height\":1244,\"minWidth\":300,\"minHeight\":200,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"backgroundColor\":\"#121212\",\"webPreferences\":{\"devTools\":false,\"spellcheck\":true,\"enablePreferredSizeMode\":true,\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"sandbox\":false,\"contextIsolation\":true,\"preload\":\"[REDACTED]/preload.wrapper.js\",\"backgroundThrottling\":true},\"icon\":\"[REDACTED]/images/signal-logo-desktop-linux.png\",\"x\":1,\"y\":17}"}
+{"level":30,"time":"2025-07-28T06:37:14.530Z","msg":"[spell_check] spellcheck: user locales: [\"en-AU\",\"en\"]"}
+{"level":30,"time":"2025-07-28T06:37:14.530Z","msg":"[spell_check] spellcheck: available spellchecker languages: [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2025-07-28T06:37:14.530Z","msg":"[spell_check] spellcheck: setting languages to: [\"en-AU\",\"en\"]"}
+{"level":30,"time":"2025-07-28T06:37:14.597Z","msg":"[app/main] MainSQL: updateSchema:\n  Current user_version: 1400;\n  Most recent db schema: 1400;\n  SQLite version: 3.49.1;\n  SQLCipher version: 4.7.0 community;\n  (deprecated) schema_version: 555;\n"}
+{"level":30,"time":"2025-07-28T06:37:15.033Z","msg":"[app/main] Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1510,\"height\":1248,\"x\":0,\"y\":16}"}
+{"level":30,"time":"2025-07-28T06:37:15.034Z","msg":"[base_config] config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2025-07-28T06:37:15.039Z","msg":"[base_config] config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2025-07-28T06:37:15.066Z","msg":"[app/main] got fast theme-setting value dark"}
+{"level":50,"time":"2025-07-28T06:37:15.322Z","msg":"[app/main] spellcheck: dictionary download failure: en"}
+{"level":50,"time":"2025-07-28T06:37:15.381Z","msg":"[app/main] spellcheck: dictionary download failure: en-AU"}
+{"level":30,"time":"2025-07-28T06:37:15.707Z","msg":"[SystemTrayService] System tray service: created"}
+{"level":30,"time":"2025-07-28T06:37:15.707Z","msg":"[SystemTrayService] System tray service: updating main window. Previously, there was not a window, and now there is"}
+{"level":30,"time":"2025-07-28T06:37:15.707Z","msg":"[SystemTrayService] System tray service: rendering no tray"}
+{"level":30,"time":"2025-07-28T06:37:15.707Z","msg":"[app/main] Begin ensuring permissions"}
+{"level":30,"time":"2025-07-28T06:37:15.708Z","msg":"[app/main] main window is ready-to-show"}
+{"level":30,"time":"2025-07-28T06:37:15.708Z","msg":"[app/main] showing main window"}
+{"level":30,"time":"2025-07-28T06:37:15.708Z","msg":"[SystemTrayService] System tray service: rendering no tray"}
+{"level":30,"time":"2025-07-28T06:37:15.709Z","msg":"[app/main] Ensuring file permissions for 4 files"}
+{"level":30,"time":"2025-07-28T06:37:15.711Z","msg":"[app/main] Finish ensuring permissions in 4ms"}
+{"level":30,"time":"2025-07-28T06:37:15.868Z","msg":"[PreventDisplaySleepService] Prevent display sleep service: allowing display sleep"}
+{"level":30,"time":"2025-07-28T06:37:15.868Z","msg":"[app/main] Background throttling enabled because no call is active"}
+{"level":40,"time":"2025-07-28T06:37:15.871Z","msg":"[OptionalResourceService] loaded emoji-index-en.json from disk"}
+{"level":30,"time":"2025-07-28T06:37:16.227Z","msg":"[app/main] Updating BrowserWindow config: {\"maximized\":true,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":3014,\"height\":1226,\"x\":1,\"y\":17}"}
+{"level":30,"time":"2025-07-28T06:37:16.227Z","msg":"[base_config] config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2025-07-28T06:37:16.231Z","msg":"[base_config] config/set: Saved ephemeral config to disk"}
+{"level":50,"time":"2025-07-28T06:37:16.972Z","msg":"[app/main] Error starting update checks: Error: ENOENT: no such file or directory, watch '/nix/store/frmv5yr0maanji486zjw7cvy3j95vp6x-signal-desktop-7.61.0/share/.signal-postinst'\n    at FSWatcher.<computed> (node:internal/fs/watchers:247:19)\n    at watch (node:fs:2549:36)\n    at initLinux ([REDACTED]/ts/updater/linux.js:93:28)\n    at Object.start ([REDACTED]/ts/updater/index.js:65:32)\n    at IpcMainImpl.readyForUpdates ([REDACTED]/app/main.js:842:19)\n    at Object.onceWrapper (node:events:633:26)\n    at IpcMainImpl.emit (node:events:518:28)\n    at Session.<anonymous> (node:electron/js2c/browser_init:2:106169)\n    at Session.emit (node:events:518:28)"}
+{"level":30,"time":"2025-07-28T06:37:16.973Z","msg":"[app/main] App loaded - time: 2513"}
+{"level":30,"time":"2025-07-28T06:37:16.973Z","msg":"[app/main] SQL init - time: 156"}
+{"level":30,"time":"2025-07-28T06:37:16.973Z","msg":"[app/main] Preload Compile - time: 244"}
+{"level":30,"time":"2025-07-28T06:37:16.973Z","msg":"[app/main] Preload - time: 512"}
+{"level":30,"time":"2025-07-28T06:37:16.973Z","msg":"[app/main] WebSocket connect - time: 1157"}
+{"level":30,"time":"2025-07-28T06:37:16.974Z","msg":"[app/main] Processed count: 0"}
+{"level":30,"time":"2025-07-28T06:37:16.974Z","msg":"[app/main] Messages per second: 0"}
+{"level":30,"time":"2025-07-28T06:37:16.974Z","msg":"[app/main] Top 10 queries by cumulative duration (ms) over last 2359ms during 'App Load': createOrUpdateItem: cumulative 24.16 | average: 3.45 | max: 5.88 | count: 7 ||| markReactionAsRead: cumulative 16.81 | average: 2.8 | max: 3.01 | count: 6 ||| getAllKyberPreKeys: cumulative 10.4 | average: 10.4 | max: 10.4 | count: 1 ||| getMessagesBySentAt: cumulative 9.16 | average: 1.53 | max: 2.64 | count: 6 ||| dequeueOldestSyncTasks: cumulative 3.92 | average: 1.96 | max: 3.86 | count: 2 ||| getAllConversations: cumulative 2.64 | average: 2.64 | max: 2.64 | count: 1 ||| getAllStickers: cumulative 2.42 | average: 2.42 | max: 2.42 | count: 1 ||| getAllStories: cumulative 1.86 | average: 1.86 | max: 1.86 | count: 1 ||| getAllPreKeys: cumulative 1.38 | average: 1.38 | max: 1.38 | count: 1 ||| getItemById: cumulative 1.35 | average: 0.27 | max: 0.65 | count: 5; Total cumulative duration of all SQL queries during this epoch: 87.83ms"}
+{"level":30,"time":"2025-07-28T06:37:18.947Z","msg":"[app/main] Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1506,\"height\":1226,\"x\":1,\"y\":17}"}
+{"level":30,"time":"2025-07-28T06:37:18.947Z","msg":"[base_config] config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2025-07-28T06:37:18.951Z","msg":"[base_config] config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2025-07-28T07:04:40.389Z","msg":"[app/main] Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1002,\"height\":1226,\"x\":1,\"y\":17}"}
+{"level":30,"time":"2025-07-28T07:04:40.389Z","msg":"[base_config] config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2025-07-28T07:04:40.393Z","msg":"[base_config] config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2025-07-28T07:04:49.234Z","msg":"[app/main] Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1506,\"height\":1226,\"x\":1,\"y\":17}"}
+{"level":30,"time":"2025-07-28T07:04:49.235Z","msg":"[base_config] config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2025-07-28T07:04:49.241Z","msg":"[base_config] config/set: Saved ephemeral config to disk"}

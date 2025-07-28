@@ -1,0 +1,20 @@
+2025/07/28-14:41:10.057 16d6 Reusing MANIFEST /home/anon/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2025/07/28-14:41:10.067 16d6 Recovering log #54
+2025/07/28-14:41:10.068 16d6 Level-0 table #57: started
+2025/07/28-14:41:10.072 16d6 Level-0 table #57: 36603 bytes OK
+2025/07/28-14:41:10.076 16d6 Delete type=0 #54
+2025/07/28-14:58:59.236 16d7 Level-0 table #60: started
+2025/07/28-14:58:59.247 16d7 Level-0 table #60: 39214 bytes OK
+2025/07/28-14:58:59.250 16d7 Delete type=0 #58
+2025/07/28-14:58:59.250 16d7 Compacting 4@0 + 1@1 files
+2025/07/28-14:58:59.254 16d7 Generated table #61@0: 40 keys, 61034 bytes
+2025/07/28-14:58:59.254 16d7 Compacted 4@0 + 1@1 files => 61034 bytes
+2025/07/28-14:58:59.257 16d7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/28-14:58:59.258 16d7 Delete type=2 #57
+2025/07/28-14:58:59.258 16d7 Delete type=2 #50
+2025/07/28-14:58:59.258 16d7 Delete type=2 #60
+2025/07/28-14:58:59.258 16d7 Delete type=2 #52
+2025/07/28-14:58:59.258 16d7 Delete type=2 #55
+2025/07/28-15:56:48.799 16d7 Level-0 table #63: started
+2025/07/28-15:56:48.809 16d7 Level-0 table #63: 20830 bytes OK
+2025/07/28-15:56:48.813 16d7 Delete type=0 #59

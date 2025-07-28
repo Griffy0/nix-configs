@@ -1,0 +1,6 @@
+2025/07/28-14:32:53.807 a97 Reusing MANIFEST /home/anon/.config/Signal/Local Storage/leveldb/MANIFEST-000001
+2025/07/28-14:32:53.816 a97 Recovering log #3
+2025/07/28-14:32:53.817 a97 Reusing old log /home/anon/.config/Signal/Local Storage/leveldb/000003.log 
+2025/07/28-15:53:49.944 a98 Level-0 table #5: started
+2025/07/28-15:53:49.955 a98 Level-0 table #5: 9827 bytes OK
+2025/07/28-15:53:49.958 a98 Delete type=0 #3

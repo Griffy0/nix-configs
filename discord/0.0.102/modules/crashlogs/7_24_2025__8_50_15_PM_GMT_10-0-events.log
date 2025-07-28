@@ -1,0 +1,14 @@
+7/24/2025, 8:50:15 PM GMT+10 0: 
+
+----------------------------------------------
+7/24/2025, 8:50:15 PM GMT+10 1: Discord starting: {"releaseChannel":"stable","version":"0.0.102"}, modulepath: /home/anon/.config/discord/0.0.102/modules
+7/24/2025, 8:50:15 PM GMT+10 2: ✅ webContents.created web1 "index.html"
+7/24/2025, 8:50:15 PM GMT+10 3: ✅ window.created win1 "discord"
+7/24/2025, 8:50:15 PM GMT+10 4: ✅ webContents.did-finish-load web1
+7/24/2025, 8:50:43 PM GMT+10 5: ✅ webContents.created web2 ""
+7/24/2025, 8:50:43 PM GMT+10 6: ✅ window.created win2 "Discord"
+7/24/2025, 8:50:45 PM GMT+10 7: ✅ webContents.did-finish-load web2
+7/24/2025, 8:50:46 PM GMT+10 8: window.close win1
+7/24/2025, 8:50:46 PM GMT+10 9: webContents.destroyed web1
+7/24/2025, 8:50:46 PM GMT+10 10: window.closed win1
+7/24/2025, 9:10:37 PM GMT+10 11: window.close win2

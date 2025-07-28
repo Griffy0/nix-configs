@@ -1,0 +1,25 @@
+2025-07-27 15:48:37.517 [info] Extension host with pid 12215 started
+2025-07-27 15:48:37.547 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-27 15:48:37.568 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-27 15:48:37.620 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-07-27 15:48:37.630 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-27 15:48:37.685 [info] Eager extensions activated
+2025-07-27 15:48:37.690 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-27 15:48:37.692 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-27 15:48:44.465 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-07-27 15:49:21.109 [info] ExtensionService#_doActivateExtension jnoortheen.nix-ide, startup: false, activationEvent: 'onLanguage:nix'
+2025-07-27 15:53:37.355 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-27 15:53:37.365 [error] TypeError: Cannot read properties of undefined (reading 'dispose')
+	at z4 (/home/anon/.vscode/extensions/jnoortheen.nix-ide-0.4.22/dist/extension.js:44:45451)
+	at Object.DO (/home/anon/.vscode/extensions/jnoortheen.nix-ide-0.4.22/dist/extension.js:44:48473)
+	at QG.eb (file:///nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:11726)
+	at file:///nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:9876
+	at Array.map (<anonymous>)
+	at QG.$ (file:///nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:9864)
+	at QG.terminate (file:///nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:10107)
+	at Y3.terminate (file:///nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:914)
+	at us (file:///nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:356:9945)
+	at MessagePortMain.<anonymous> (file:///nix/store/x4jnwwpa28sa9rcdprrkc1cy6bbc54lh-vscode-1.102.1/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:356:6484)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:3073)
+2025-07-27 15:53:37.365 [info] Extension host with pid 12215 exiting with code 0

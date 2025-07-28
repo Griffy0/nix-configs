@@ -1,0 +1,50 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1922,
+       "width": 1202,
+       "x": 3923,
+       "y": 42
+    },
+    "marks": [],
+    "name": "VNV Nation - Genesis - Single Version",
+    "percent": 0.8,
+    "swallows": [
+       {
+       // "class": "^Spotify$",
+       // "instance": "^spotify$",
+       // "machine": "^nixos$",
+       // "title": "^VNV\\ Nation\\ \\-\\ Genesis\\ \\-\\ Single\\ Version$",
+       // "window_role": "^spotify$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1397,
+       "width": 1716,
+       "x": 0,
+       "y": 0
+    },
+    "marks": [],
+    "name": "anon@nixos: ~",
+    "percent": 0.2,
+    "swallows": [
+       {
+       // "class": "^kitty$",
+       // "instance": "^kitty$",
+       // "machine": "^nixos$",
+       // "title": "^anon\\@nixos\\:\\ \\~$"
+       }
+    ],
+    "type": "con"
+}
+
