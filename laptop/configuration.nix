@@ -5,13 +5,6 @@
 { config, pkgs, ... }:
 
 {
-  # ----- Hyper-V Guest support ----- #
-  virtualisation.hypervGuest = {
-    enable = true;
-    videoMode = "2880x1800";
-  };
-
-  boot.blacklistedKernelModules = [ "hyperv_fb" ];
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
